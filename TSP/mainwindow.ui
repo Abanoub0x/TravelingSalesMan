@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1502</width>
+    <height>756</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBoxAlgo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>82</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Brute Force</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Greedy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dynamic Programming</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btnStart">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnReset">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddCity">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add City</string>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="tableCities">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>381</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>City Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Latitude</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Longitude</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Cairo</string>
+     </property>
+     <property name="text">
+      <string>30.0444</string>
+     </property>
+     <property name="text">
+      <string>31.2357</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alexandria</string>
+     </property>
+     <property name="text">
+      <string>31.2001</string>
+     </property>
+     <property name="text">
+      <string>29.9187</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Giza</string>
+     </property>
+     <property name="text">
+      <string>30.0131</string>
+     </property>
+     <property name="text">
+      <string>31.2089</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luxor</string>
+     </property>
+     <property name="text">
+      <string>25.6872</string>
+     </property>
+     <property name="text">
+      <string>32.6396</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Aswan</string>
+     </property>
+     <property name="text">
+      <string>24.0889</string>
+     </property>
+     <property name="text">
+      <string>32.8998</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sharm El-Sheikh</string>
+     </property>
+     <property name="text">
+      <string>27.9158</string>
+     </property>
+     <property name="text">
+      <string>34.2399</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hurghada</string>
+     </property>
+     <property name="text">
+      <string>27.2579</string>
+     </property>
+     <property name="text">
+      <string>33.8116</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suez</string>
+     </property>
+     <property name="text">
+      <string>29.9730</string>
+     </property>
+     <property name="text">
+      <string>32.5484</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Port Said</string>
+     </property>
+     <property name="text">
+      <string>31.2561</string>
+     </property>
+     <property name="text">
+      <string>32.2885</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ismailia</string>
+     </property>
+     <property name="text">
+      <string>30.5898</string>
+     </property>
+     <property name="text">
+      <string>32.2682</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="inputName">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>50</y>
+      <width>113</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputLat">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>100</y>
+      <width>113</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Latitude</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputLon">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>150</y>
+      <width>113</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Longitude</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelDistance">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total Distance</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>30</y>
+      <width>671</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>671</width>
+      <height>0</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDeleteDrawings">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>220</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Delete Drawings</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnResetTable">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>121</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset Table</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1502</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
