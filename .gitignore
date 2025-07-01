@@ -15,7 +15,7 @@ build*/
 *.user
 *.pro.user
 *.qmake.stash
-CMakeLists.txt.user
+CMakeLists.txt
 
 # Ignore generated files
 Makefile*
