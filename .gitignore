@@ -1,5 +1,5 @@
-   *.pptx
-   *.pdf
-   .build/
-   .qtcreator/
-   *.user
+   TSP/*.pptx
+   TSP/*.pdf
+   TSP/.build/
+   TSP/.qtcreator/
+   TSP/*.user
