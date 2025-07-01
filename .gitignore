@@ -1,5 +1,9 @@
-   TSP/*.pptx
-   TSP/*.pdf
-   TSP/.build/
-   TSP/.qtcreator/
-   TSP/*.user
+*.pptx
+*.doc
+*.docx
+*.pdf
+debug/
+release/
+build*/
+.qtcreator/
+*.user
