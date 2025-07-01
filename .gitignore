@@ -1,9 +1,27 @@
+# Ignore Office and PDF files everywhere
 *.pptx
 *.doc
 *.docx
 *.pdf
+
+# Ignore build folders everywhere
 debug/
 release/
 build*/
+
+# Ignore Qt Creator and IDE files/folders
 .qtcreator/
+.qtc_clangd/
 *.user
+*.pro.user
+*.qmake.stash
+CMakeLists.txt.user
+
+# Ignore generated files
+Makefile*
+ui_*.h
+moc_*.cpp
+moc_*.h
+
+# Ignore .gitattributes if you don't want to track it
+.gitattributes
